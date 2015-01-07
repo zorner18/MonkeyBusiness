@@ -27,7 +27,7 @@ namespace MonkeyBusiness.Objects
             this.SetVelocity((float)(speed) * Vector2.Normalize(this.target - Utillities.PointToVector2(this.center)));
         }
 
-        public override void Update(double gameTime)
+        public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
             if (this.position == this.target)

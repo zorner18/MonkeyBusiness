@@ -47,9 +47,9 @@ namespace MonkeyBusiness.Objects
         }
         #endregion
 
-        virtual public void Update(double gameTime)
+        virtual public void Update(GameTime gameTime)
         {
-            this.position += this.velocity * (float)(gameTime);
+            this.position += this.velocity * gameTime.ElapsedGameTime.Milliseconds;
 
             //TODO: animate
         }
