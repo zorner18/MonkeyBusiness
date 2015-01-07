@@ -33,6 +33,7 @@ namespace MonkeyBusiness.Objects
             if (this.position == this.target)
             {
                 isMovingToTarget = false;
+                this.SetVelocity(Vector2.Zero);
             }
         }
     }
