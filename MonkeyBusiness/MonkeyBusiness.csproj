@@ -107,9 +107,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objects\InteractiveObject.cs" />
     <Compile Include="Objects\DrawableObject.cs" />
+    <Compile Include="Objects\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Utillities.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
